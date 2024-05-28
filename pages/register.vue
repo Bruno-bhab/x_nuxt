@@ -1,5 +1,8 @@
 <script setup lang="ts">
-    definePageMeta({layout: 'guest'})
+    definePageMeta({
+        layout: 'guest',
+        middleware: ['guest']
+    })
 </script>
 
 <template>
